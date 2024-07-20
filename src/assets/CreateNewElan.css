@@ -1,0 +1,70 @@
+.car-form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-column {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+  }
+  
+  .form-column label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-column input,
+  .form-column textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-bottom {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-bottom label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-bottom input[type="file"] {
+    display: block;
+  }
+  
+  .image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .image-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #ca1016;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ca1016;
+  }
+  

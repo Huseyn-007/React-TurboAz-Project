@@ -1,37 +1,231 @@
 {
-    "cars":[
-        {
-            "Id":1,
-            "Marka": "BMW",
-            "Model": "535",
-            "Year": 2012,
-            "BanType": "sedan",
-            "Color": "Ag",
-            "Engine": "3.0 L/306 a.g./Benzin",
-            "Km": 135773,
-            "SeatCount": 5,
-            "OwnerId": 1,
-            "Description": "KREDIT MÜMKÜNDÜR Maximum kredit muddeti 24-36 AY AZN-LE Kreditle masin alan musterilerin nezerine:2 saat erzinde Masin qeydiyyat olunub musteriye tehvil verilir",
-            "ImageUrl" : "https://turbo.azstatic.com/uploads/f460x343/2024%2F04%2F25%2F10%2F15%2F43%2F53a6501b-45af-4863-977d-cc053f9e8ea5%2F90393_ODR1trMUn1QUOVEF2iZirw.jpg",
-            "Price" : 23800
-        },
-        {
-            "Id":2,
-            "Marka": "KG Mobility",
-            "Model": "Rexton",
-            "Year": 2023,
-            "BanType": "Offroader",
-            "Color": "Ag",
-            "Engine": "2.2 L/200 a.g./Dizel",
-            "Km": 0,
-            "SeatCount": 7,
-            "OwnerId": 2,
-            "Description": "yaxwi mawindi",
-            "ImageUrl" : "https://turbo.azstatic.com/uploads/f460x343/2023%2F12%2F27%2F11%2F48%2F39%2F8ffd83b0-b153-446d-b796-bf18357f756b%2F3818_bu5oywMrX1q7ZLrp6-R1XQ.jpg",
-            "Price" : 84400
-        }
-    
-    
-    ]
-    
+  "cars": [
+    {
+      "Marka": "BMW",
+      "Model": "535",
+      "Year": 2012,
+      "BanType": "sedan",
+      "Color": "Ag",
+      "Engine": "3.0 L/306 a.g./Benzin",
+      "Km": 135773,
+      "SeatCount": 5,
+      "OwnerId": 1,
+      "Description": "KREDIT MÜMKÜNDÜR Maximum kredit muddeti 24-36 AY AZN-LE Kreditle masin alan musterilerin nezerine:2 saat erzinde Masin qeydiyyat olunub musteriye tehvil verilir",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/f460x343/2024%2F04%2F25%2F10%2F15%2F43%2F53a6501b-45af-4863-977d-cc053f9e8ea5%2F90393_ODR1trMUn1QUOVEF2iZirw.jpg"
+      ],
+      "Price": 23800,
+      "id": "392c"
+    },
+    {
+      "Marka": "KG Mobility",
+      "Model": "Rexton",
+      "Year": 2023,
+      "BanType": "Offroader",
+      "Color": "Ag",
+      "Engine": "2.2 L/200 a.g./Dizel",
+      "Km": 0,
+      "SeatCount": 7,
+      "OwnerId": 2,
+      "Description": "yaxwi mawindi",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/f460x343/2023%2F12%2F27%2F11%2F48%2F39%2F8ffd83b0-b153-446d-b796-bf18357f756b%2F3818_bu5oywMrX1q7ZLrp6-R1XQ.jpg"
+      ],
+      "Price": 84400,
+      "id": "0bbe"
+    },
+    {
+      "Marka": "Mercedes",
+      "Model": "C 250",
+      "Year": 2014,
+      "BanType": "Sedan",
+      "Color": "Qara",
+      "Engine": "1.8 L/204 a.g./Benzin",
+      "Km": 165000,
+      "SeatCount": 5,
+      "OwnerName": "sa",
+      "Description": "BEZKRASKA. Mashin ideal veziyetdedir. Hec bir problemi yoxdur.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F11%2F21%2F14%2F22%2F78969c1c-e244-47ba-8897-841ac45a7027%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F11%2F21%2F14%2F22%2F964a4e8e-ec1e-45f6-b7ce-fd08d96a2dd8%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F11%2F21%2F14%2F20%2F56311007-0542-4edf-afc7-67305b8ff5bc%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F11%2F21%2F14%2F22%2F3fab30f9-f985-4db5-85bd-9419765850b2%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F11%2F21%2F14%2F22%2Fcd9317a2-a8f2-4bf1-b287-d7256016904c%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg"
+      ],
+      "Price": 50000,
+      "id": "7711"
+    },
+    {
+      "Marka": "Hyundai",
+      "Model": "Santa Fe",
+      "Year": 2015,
+      "BanType": "Offroader / SUV, 5 qapı",
+      "Color": "Yaş Asfalt",
+      "Engine": "2.0 L/184 a.g./Dizel",
+      "Km": 156299 ,
+      "SeatCount": 5,
+      "OwnerName": "Ulvi",
+      "Description": "yaxwi mawindi",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F21%2F40%2F01%2F7187e9ca-83c2-4a72-a10d-46e008892899%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F21%2F40%2F01%2Fceb27c1f-28ed-4ab9-9274-90f0392b6a77%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F21%2F40%2F01%2Faf222902-f683-4c6c-8085-b409ecfc135f%2F73879_Llsf7HE7T9ZVmMOurKtMGQ.jpg"
+      ],
+      "Price": 30000,
+      "id": "7712"
+    },
+    {
+      "Marka": "BMW",
+      "Model": "528",
+      "Year": 2014,
+      "BanType": "sedan",
+      "Color": "Boz",
+      "Engine": "2.0 L/245 a.g./Benzin",
+      "Km": 206000 ,
+      "SeatCount": 5,
+      "OwnerName": "Ulvi",
+      "Description": "Barter olunmur",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F05%2F08%2F00%2F49%2F54%2F845368f8-a71b-4e60-9e59-236fb88d8a1c%2F73879_Llsf7HE7T9ZVmMOurKtMGQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F05%2F08%2F00%2F49%2F27%2F43f18ad2-a6f1-4fd3-a6d6-2ec1caa6b017%2F73879_Llsf7HE7T9ZVmMOurKtMGQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F05%2F08%2F00%2F50%2F05%2F71fa14fa-dbaf-462c-a775-fa04e60c9984%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg"
+      ],
+      "Price": 18800,
+      "id": "7712"
+    },
+    {
+      "Marka": "Hyundai",
+      "Model": "Elantra",
+      "Year": 2014 ,
+      "BanType": "sedan",
+      "Color": "Qara",
+      "Engine": "1.8 L/150 a.g./Benzin",
+      "Km": 160934 ,
+      "SeatCount": 5,
+      "OwnerName": "Nicat",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F04%2F14%2F18%2F29%2F58%2F5d34191f-ca71-45cc-915d-52b7f623e47c%2F14231_J-_dQLKSND7AOyYEFIDxaw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F04%2F14%2F18%2F30%2F33%2Fef616b2f-7507-4a56-89a3-86e66777d4e5%2F32444_OikwS_ZIYofkU92pw8zouQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F04%2F14%2F18%2F30%2F33%2F2ac9c4e6-fedb-459f-9e1b-580184785bdc%2F32444_OikwS_ZIYofkU92pw8zouQ.jpg"
+      ],
+      "Price": 18800,
+      "id": "7713"
+    },
+    {
+      "Marka": "Land Rover",
+      "Model": "Range Rover",
+      "Year": 2014 ,
+      "BanType": "Offroader / SUV, 5 qapı",
+      "Color": "Qara",
+      "Engine": "3.0 L/306 a.g./Dizel",
+      "Km": 122000 ,
+      "SeatCount": 5,
+      "OwnerName": "Nicat",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F03%2F17%2F03%2F07%2F33%2F086608d6-fd71-4d76-b427-38c1fc125691%2F14231_J-_dQLKSND7AOyYEFIDxaw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F03%2F17%2F03%2F07%2F34%2Fb54114a0-b522-4196-8c22-a94410c3f7c6%2F14231_J-_dQLKSND7AOyYEFIDxaw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F03%2F17%2F03%2F07%2F34%2F9dd36354-8b4b-4546-99c7-c799ed1f93e3%2F14231_J-_dQLKSND7AOyYEFIDxaw.jpg"
+      ],
+      "Price": 48000,
+      "id": "7714"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Sunny",
+      "Year": 2008 ,
+      "BanType": "Sedan",
+      "Color": "Qara",
+      "Engine": "1.3 L/90 a.g./Benzin",
+      "Km": 288000  ,
+      "SeatCount": 4,
+      "OwnerName": "Kamran",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F18%2F14%2F57%2F05%2Fb1523921-2d71-469b-b77d-ba004a37839c%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F18%2F14%2F57%2F06%2F632acd9f-f5a9-4666-82b9-42bb6ba9528d%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F18%2F14%2F57%2F06%2F1b52915f-6e94-4280-858d-98c4e6c92e1e%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg"
+      ],
+      "Price": 11000,
+      "id": "7715"
+    },
+
+    {
+      "Marka": "Ford",
+      "Model": "Mustang",
+      "Year": 2018 ,
+      "BanType": "Kupe",
+      "Color": "Göy",
+      "Engine": "2.3 L/317 a.g./Benzin",
+      "Km": 150000  ,
+      "SeatCount": 5,
+      "OwnerName": "Ibrahim",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F06%2F20%2F20%2F07%2F10%2F39d0b92d-29fe-4254-bc68-7c86698537de%2F73879_Llsf7HE7T9ZVmMOurKtMGQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F06%2F20%2F20%2F09%2F30%2Ffbb1e24d-7de4-465c-b847-7ecb451f3f92%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F06%2F20%2F20%2F07%2F10%2Fb9015dab-d58a-4a94-bd60-3217fdb2783f%2F73879_Llsf7HE7T9ZVmMOurKtMGQ.jpg"
+      ],
+      "Price": 36500,
+      "id": "7716"
+    },
+    {
+      "Marka": "Volkswagen",
+      "Model": "Touareg",
+      "Year": 2011 ,
+      "BanType": "Offroader / SUV, 5 qapı",
+      "Color": "Ag",
+      "Engine": "3.6 L/249 a.g./Benzin",
+      "Km": 235000  ,
+      "SeatCount": 5,
+      "OwnerName": "Elisahib",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F22%2F47%2F39%2F946b4e51-5011-4466-91f0-2f34327cf685%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F22%2F52%2F19%2Fdd585d50-cdc0-4770-997f-68b7849313b9%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F02%2F22%2F52%2F12%2Fd02014d0-cacb-4f8f-befe-f029a25b5f1d%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg"
+      ],
+      "Price": 22000,
+      "id": "7717"
+    },
+    {
+      "Marka": "Kia",
+      "Model": "Optimna",
+      "Year": 2019,
+      "BanType": "Sedan",
+      "Color": "Göy",
+      "Engine": "2.0 L/275 a.g./Benzin",
+      "Km": 94000  ,
+      "SeatCount": 5,
+      "OwnerName": "Eli",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F07%2F21%2F01%2F03%2Fb2021cf9-d66c-4c49-8e20-c9ea85cdc272%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F07%2F21%2F00%2F59%2Fcaf92dfe-67cd-42db-8fc4-98d6aec14e5e%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F07%2F21%2F01%2F02%2Fbffbd6a4-3a90-4880-bb1d-a4ddb52d9342%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg"
+      ],
+      "Price": 31900,
+      "id": "7718"
+    },
+    {
+      "Marka": "LADA(VAZ)",
+      "Model": "2103",
+      "Year": 1979,
+      "BanType": "Sedan",
+      "Color": "Göy",
+      "Engine": "1.7 L/80 a.g./Benzin",
+      "Km": 38000  ,
+      "SeatCount": 5,
+      "OwnerName": "Anar",
+      "Description": "Heç bir problemi yoxdur.ancaq işə evə sürülüb.Başqa maşın almaq istediyim üçün satıram.",
+      "Images": [
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F17%2F21%2F25%2F20%2Fce1b5656-aa58-4f20-adcc-7a484856b834%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F17%2F21%2F25%2F23%2F87ac9409-857a-4a2b-a245-895c85b3bcf5%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+        "https://turbo.azstatic.com/uploads/full/2024%2F07%2F17%2F21%2F25%2F14%2Fa755ba23-858c-45d8-8fe6-492a98d8ede5%2F12183_ogtQftp0VNM0b8HrfrDIcQ.jpg"
+      ],
+      "Price": 36000,
+      "id": "7719"
+    }
+  ]
 }

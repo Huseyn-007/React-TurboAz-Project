@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.photo-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.ad-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.ad-contact-info {
+  flex: 0 0 300px;
+  border: 1px solid #4c88f9;
+  width: 310px;
+  height: 512px;
+  padding: 20px;
+  background-color: #f6f7fa;
+}
+
+.ad-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ad-price {
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.ad-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.ad-details table th, .ad-details table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ad-details table th {
+  background-color: #f2f2f2;
+}
+
+.ad-description {
+  margin-bottom: 20px;
+}
+
+.ad-contact-info .contact-info {
+  margin-bottom: 20px;
+}
+
+.ad-contact-info .buttons a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4c88f9;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}

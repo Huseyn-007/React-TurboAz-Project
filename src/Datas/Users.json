@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "ccf8",
+      "username": "sa",
+      "password": "sa",
+      "favorites": [
+        "7717",
+        "7719",
+        "0bbe",
+        "7712",
+        "7714"
+      ]
+    },
+    {
+      "id": "1a8c",
+      "username": "a",
+      "password": "a",
+      "favorites": [
+        "392c"
+      ]
+    }
+  ]
+}

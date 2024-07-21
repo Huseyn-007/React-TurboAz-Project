@@ -28,6 +28,7 @@ export default function Favorites() {
               <FontAwesomeIcon
                 icon={faHeart}
                 className="heart-icon liked" 
+                style={{color:"red"}}
               />
               <h2>{car.Price} AZN</h2>
               <p className="car-details">{car.Marka} {car.Model}</p>

@@ -24,9 +24,9 @@ body {
 
 .ad-contact-info {
   flex: 0 0 300px;
-  border: 1px solid #4c88f9;
+  border: 1px solid black;
   width: 310px;
-  height: 512px;
+  height: 212px;
   padding: 20px;
   background-color: #f6f7fa;
 }
@@ -74,7 +74,7 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   color: #fff;
-  background-color: #4c88f9;
+  background-color: #02bd18;
   padding: 10px;
   text-align: center;
   border-radius: 4px;

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import '../assets/Slider.css';
+import React, { useState } from "react";
+import "../assets/Slider.css";
 
 const Slider = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,11 +16,15 @@ const Slider = ({ images }) => {
 
   return (
     <div className="slider">
-      <button className="prev" onClick={prevSlide}>{"<"}</button>
       <div className="slider-content">
+        <button className="prev" onClick={prevSlide}>
+          {"<"}
+        </button>
         <img src={images[currentIndex]} alt={`slide ${currentIndex}`} />
+        <button className="next" onClick={nextSlide}>
+          {">"}
+        </button>
       </div>
-      <button className="next" onClick={nextSlide}>{">"}</button>
     </div>
   );
 };

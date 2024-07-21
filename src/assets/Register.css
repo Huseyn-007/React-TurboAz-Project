@@ -13,10 +13,13 @@
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 200px;
+    height: 300px;
   }
   
   .register-form h2 {
     margin-bottom: 1rem;
+    margin-top: 40px;
   }
   
   .register-form input {
@@ -26,16 +29,19 @@
     border-radius: 4px;
   }
   
-  .register-form button {
+  .register-form .register-button {
     padding: 0.5rem;
     border: none;
-    background: #007bff;
+    background-color: #007bff;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
   }
   
-  .register-form button:hover {
+  .register-form .register-button:hover {
     background: #0056b3;
   }
   

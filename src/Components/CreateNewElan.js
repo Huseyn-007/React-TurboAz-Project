@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import '../assets/CreateNewElan.css';
+import { useSelector } from "react-redux";
+
 
 const CreateNewElan = () => {
+  const user = useSelector(state => state.user.user);
   const [formData, setFormData] = useState({
     Marka: '',
     Model: '',
@@ -11,10 +14,12 @@ const CreateNewElan = () => {
     Engine: '',
     Km: '',
     SeatCount: '',
+    OwnerName:user.username,
     Description: '',
     Images: [],
     Price: ''
   });
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,7 +56,7 @@ const CreateNewElan = () => {
     })
     .then(response => response.json())
     .then(data => {
-      console.log('Success:', data);
+      alert("Elan elave olundu")
     })
     .catch((error) => {
       console.error('Error:', error);
@@ -114,7 +119,7 @@ const CreateNewElan = () => {
             <img key={index} src={image} alt={`Preview ${index}`} />
           ))}
         </div>
-        <button type="submit">Elani Yerləşdir</button>
+        <button className='elan-button' type="submit">Elani Yerləşdir</button>
       </div>
     </form>
   );

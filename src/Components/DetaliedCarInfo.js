@@ -66,14 +66,14 @@ const DetailedCarInfo = () => {
           <div className="ad-description">{car.Description}</div>
         </div>
         <div className="ad-contact-info">
-          <div className="ad-price">{car.Price} USD</div>
+          <div className="ad-price">{car.Price} AZN</div>
           <div className="contact-info">
           
-            <p>Əlaqə: 101 Auto</p>
+            <p>{car.OwnerName}</p>
             <p>Şəhər: Bakı</p>
           </div>
           <div className="buttons">
-            <a href="#">Salona keç</a>
+            <a href="#">Nomreni Goster</a>
           </div>
         </div>
       </div>

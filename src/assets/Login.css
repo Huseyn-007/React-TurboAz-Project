@@ -13,9 +13,12 @@
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 200px;
+    height: 300px;
   }
   
   .login-form h2 {
+    margin-top: 50px;
     margin-bottom: 1rem;
   }
   
@@ -26,16 +29,19 @@
     border-radius: 4px;
   }
   
-  .login-form button {
+  .login-form .login-button {
     padding: 0.5rem;
     border: none;
     background: #007bff;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
   }
   
-  .login-form button:hover {
+  .login-form .login-button:hover {
     background: #0056b3;
   }
   

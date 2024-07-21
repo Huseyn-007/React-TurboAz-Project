@@ -45,43 +45,48 @@ function App() {
             <a href="#">Moto</a>
             <a href="#">Ehtiyat hissələr və aksesuarlar</a>
             <a href="#">İcarə</a>
-            <Link onClick={() => setAnotherPage(false)} to='/CreateNewElan' className="new-ad">
+          {user &&   <Link onClick={() => setAnotherPage(false)} to='/CreateNewElan' className="new-ad">
               + Yeni elan
-            </Link>
+            </Link>}
           </nav>
           {isAnotherPage && (
-            <div className="filter-bar">
-              <select>
-                <option>Marka</option>
-              </select>
-              <select>
-                <option>Model</option>
-              </select>
-              <div className="radio-buttons">
-                <input type="radio" id="all" name="condition" defaultChecked />
-                <label htmlFor="all">Hamısı</label>
-                <input type="radio" id="new" name="condition" />
-                <label htmlFor="new">Yeni</label>
-                <input type="radio" id="used" name="condition" />
-                <label htmlFor="used">Sürülmüş</label>
-              </div>
-              <select>
-                <option>Şəhər</option>
-              </select>
-              <input type="text" placeholder="Qiymət, min." />
-              <input type="text" placeholder="maks." />
-              <select>
-                <option>AZN</option>
-              </select>
-              <button>Kredit</button>
-              <button>Barter</button>
-              <select>
-                <option>Ban növü</option>
-              </select>
-              <input type="text" placeholder="İl, min." />
-              <input type="text" placeholder="maks." />
-              <button className="show-ads">Elanları göstər</button>
-            </div>
+                 <div className="filter-bar">
+                 <div className="top-row">
+                   <select style={{ width: "235px", height: "48px" }}>
+                     <option>Marka</option>
+                   </select>
+                   <select style={{ width: "235px", height: "48px" }}>
+                     <option>Model</option>
+                   </select>
+               
+                   <div className="radio-buttons">
+                     <input type="radio" id="all" name="condition" defaultChecked />
+                     <label htmlFor="all">Hamısı</label>
+                     <input type="radio" id="new" name="condition" />
+                     <label htmlFor="new">Yeni</label>
+                     <input type="radio" id="used" name="condition" />
+                     <label htmlFor="used">Sürülmüş</label>
+                   </div>
+                   <select>
+                     <option>Şəhər</option>
+                   </select>
+                 </div>
+                 <div className="bottom-row">
+                  
+                   <input type="text" placeholder="Qiymət, min." />
+                   <input type="text" placeholder="maks." />
+                   <select>
+                     <option>AZN</option>
+                   </select>
+             
+                   <select>
+                     <option>Ban növü</option>
+                   </select>
+                   <input type="text" placeholder="İl, min." />
+                   <input type="text" placeholder="maks." />
+                   {/* <button className="show-ads">Elanları göstər</button> */}
+                 </div>
+               </div>
           )}
         </header>
         <main>

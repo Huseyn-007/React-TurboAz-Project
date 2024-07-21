@@ -9,6 +9,7 @@
     flex: 1;
     min-width: 300px;
     padding: 10px;
+    margin-left: 20px;
   }
   
   .form-column label {
@@ -55,16 +56,19 @@
     border-radius: 4px;
   }
   
-  button {
+  .elan-button {
     padding: 10px;
     background-color: #ca1016;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top:100px;
+    
+    width: 200px;
   }
   
-  button:hover {
+  .elan-button:hover {
     background-color: #ca1016;
   }
   

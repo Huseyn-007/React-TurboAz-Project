@@ -16,22 +16,31 @@
     display: block;
   }
   
-  button {
+
+  
+  .prev {
     position: absolute;
-    top: 50%;
+    top:50%;
+      transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    left: 10px;
+    width: 40px;
+  }
+  
+  .next {
+    position: absolute;
+    top:50%;    
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
     padding: 10px;
     cursor: pointer;
-  }
-  
-  .prev {
-    left: 10px;
-  }
-  
-  .next {
     right: 10px;
+    width: 40px;
   }
   
